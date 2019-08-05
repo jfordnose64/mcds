@@ -1,12 +1,46 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 'Times New Roman', Times, serif;
 }
 
 html {
   height: 100%;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 body {
   margin: 0;
   min-height: 100%;
+  background-color: red;
+  margin: 2rem;
+}
+
+.header {
+  color: yellow;
+  text-align: center;
+  padding: 2rem;
+  font-size: 4rem;
+  /* font-weight: 900; */
+}
+
+.img {
+  margin: 0 auto;
+  display: block;
+  padding: 1.5rem;
+}
+
+.img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+article>p {
+  color: yellow;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.link:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
